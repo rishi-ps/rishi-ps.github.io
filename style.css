@@ -1,4 +1,3 @@
-/* Reset and base styles */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +5,7 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     background-color: #fdfdfd;
     color: #333;
@@ -48,10 +47,18 @@ nav a:hover {
     color: #000;
 }
 
+.profile-picture {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 250px; /* adjust the size as needed */
+    height: 250px;
+    object-fit: cover;
+}
+
 /* Sections */
 section {
     padding: 2rem 0;
-    border-bottom: 1px solid #eee;
 }
 
 h2 {
@@ -64,14 +71,15 @@ p {
     max-width: 700px;
 }
 
-/* Projects */
-.project {
-    margin-bottom: 1.5rem;
+.socials-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
-.project h3 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+.socials-icons a i {
+    font-size: 1.8rem;
 }
 
 /* Footer */
@@ -80,6 +88,11 @@ footer {
     padding: 1rem 0;
     font-size: 0.9rem;
     color: #777;
+}
+
+footer p {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Responsive design */
