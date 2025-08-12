@@ -58,6 +58,15 @@ p {
     max-width: 700px;
 }
 
+/* Projects */
+.project {
+    margin-bottom: 1.5rem;
+}
+
+.project h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
 
 /* Footer */
 footer {
@@ -66,3 +75,4 @@ footer {
     font-size: 0.9rem;
     color: #777;
 }
+
