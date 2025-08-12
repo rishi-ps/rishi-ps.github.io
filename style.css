@@ -1,0 +1,68 @@
+/* General settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fdfdfd;
+    color: #333;
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #222;
+}
+
+nav a {
+    margin-left: 1.2rem;
+    text-decoration: none;
+    color: #666;
+    font-size: 1rem;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+/* Sections */
+section {
+    padding: 2rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #111;
+}
+
+p {
+    max-width: 700px;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    color: #777;
+}
