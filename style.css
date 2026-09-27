@@ -412,6 +412,22 @@ main {
   padding-top: 0.5rem;
 }
 
+.cv-viewer-wrap {
+  margin-top: 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.cv-embed {
+  display: block;
+  width: 100%;
+  min-height: 85vh;
+  border: 0;
+  background: #ffffff;
+}
+
 .contact-card {
   margin-top: 0.5rem;
   padding: 1.2rem 1.4rem;
